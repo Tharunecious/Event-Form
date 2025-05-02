@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>SWAP - 2K24</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link rel="shortcut icon" href="finswaplogo.png" type="image/x-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/venobox/venobox.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Link css  -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- header  -->
+  <header id="header">
+    <div class="container">
+      <div id="logo" class="pull-left">
+        <div class="logo" style="display: flex;">
+          <div class="image">
+            <a href="#intro" class="scrollto"><img src="jmc_new_logo.png" alt="" title=""></a>
+          </div>
+          <div class="text" style="justify-content: center;">
+            <h2>Jamal Mohamed College</h2>
+            <p>(Autonomous)</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- #nav-menu-container -->
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#intro">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#speakers">Events</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#venue">Venue</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li class="buy-tickets" data-bs-target="#exampleModalToggle" data-bs-toggle="modal"><a href="#">Registration</a></li>
+          <li class="log-out"  data-bs-toggle="modal"><a href="#">Log Out</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- landing page intro  -->
+  <section id="intro">
+    <div class="intro-container wow fadeIn">
+      <img src="finswaplogo.png" alt="" style="width: 150px;">
+      <h1 class="mb-4 pb-0">
+        <span style="--1:1">S</span>
+        <span style="--1:2">W</span>
+        <span style="--1:3">A</span>
+        <span style="--1:4">P</span>
+        <span style="--1:5">-</span>
+        <span style="--1:6">2</span>
+        <span style="--1:7">K</span>
+        <span style="--1:8">2</span>
+        <span style="--1:9">4</span>
+      </h1>
+      <p class="mb-4 pb-0">26 September 2024, Jamal Mohamed College</p>
+      <p>Tiruchirappalli</p>
+      <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+      <a href="#about" class="about-btn scrollto" style="text-decoration: none;">About The Event</a>
+    </div>
+  </section>
+
+  <!-- For selecting college and department  -->
+  <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content" style="background-color: #dfe3ed; color:black;">
+
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Sign Up</h1>
+          <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div>
+
+        <div class="modal-body" style="display: flex;">
+          <label for="dog-names" style="font-size: large; margin-right: 50px;" >College Name:</label>
+          <select name="college-names" id="college-names" style="width: 200px; padding: 5px 10px; border-radius: 8px;" class="form-control">
+            <option value="none" disabled>Select</option>     
+          </select>
+        </div>
+
+        <div class="modal-body" style="display: flex;">
+          <label for="dog-names" style="font-size: large; margin-right: 15px;">Department Name:</label>
+          <select name="college-names" id="college-names" style="width :200px;padding: 5px 10px; border-radius: 8px;" class="form-control">
+            <option value="none" disabled>Select</option>     
+          </select> 
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary mt-3 d-inline" data-bs-target="#exampleModalToggle1" data-bs-toggle="modal">Next</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Sign up page -->
+  <div class="modal fade" id="exampleModalToggle1" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content" style="background-color: #dfe3ed; color:black;">
+
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Sign Up</h1>
+          <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div>
+
+        <div class="modal-body" >
+          <label for="username" class="form-label">Username</label>
+          <input type="text" id="username" class="form-control">
+
+          <label for="college" class="form-label">College Name</label>
+          <input type="text" id="college" class="form-control">
+
+          <label for="mobile" class="form-label">Mobile Number</label>
+          <input type="text" id="mobile" class="form-control">
+
+          <label for="password" class="form-label">Password</label>
+          <input type="password" id="password" class="form-control" aria-describedby="passwordHelpBlock">
+          
+          <div class="text-center">
+            <button type="button" class="btn btn-primary mt-3 d-inline" data-bs-target="#registerForm" data-bs-toggle="modal">Submit</button>
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <p style="margin: 0 auto;">Have an Account<a class="link-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" style="margin-left: 6px;" href="">Sign In</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sign in page -->
+  <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content" style="background-color: #dfe3ed; color:black;">
+
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Sign In</h1>
+          <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div>
+
+        <div class="modal-body">
+          <label for="username" class="form-label">Username</label>
+          <input type="text" id="username" class="form-control">
+
+          <label for="password" class="form-label">Password</label>
+          <input type="password" id="password" class="form-control" aria-describedby="passwordHelpBlock">
+
+          <div class="text-center">
+            <a href="register-form.html"><button type="button" class="btn btn-primary mt-3 d-inline">Submit</button></a>
+          </div>
+        </div>
+
+        <div class="modal-footer" style="margin-right: 30px;">
+          <p style="margin: 0 auto;">Don't have an Account<a class="link-primary" data-bs-target="#exampleModalToggle1" data-bs-toggle="modal" style="margin-left: 6px;" href="">Sign Up</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ 
+
+  <main id="main">
+  <!-- Countdown -->
+    <section id="subscribe">
+      <div class="container wow fadeInUp">
+
+        <div class="section-header">
+          <h2>Countdown</h2>
+        </div> 
+
+        <div class="row" id="timer">
+          <div class="col-auto w-100">
+            <div class="count-down">
+
+              <div class="count" style="margin-right: 20px;">
+                <p class="counter" id="days">00</p>
+                <span>Days</span>
+              </div>
+
+              <div class="count" style="margin-right: 20px;">
+                <p class="counter" id="hours">00</p>
+                <span>Hours</span>
+              </div>
+
+              <div style="margin-right: 20px;">
+                <p class="counter" id="minutes">00</p>
+                <span>Minutes</span>
+              </div>
+
+              <div class="count" >
+                <p class="counter" id="seconds">00</p>
+                <span>Seconds</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About section  -->
+    <section id="about">
+      <div class="container">
+        <div class="row " >
+
+          <div class="col-lg-6 text-center">
+            <h2 class="hover-underline">About The Event</h2>
+            <p>We, the students of Computer science department, oraganize this mega event every year, giving an opportunity to all the Technical and Non-Technical enthusiasts to show their talents.</p>
+          </div>
+
+          <div class="col-lg-3  text-center">
+            <h3 class="hover-underline">Where</h3>
+            <p>Jamal Mohamed College, <br>Tiruchirappalli</p>
+          </div>
+
+          <div class="col-lg-3 text-center">
+            <h3 class="hover-underline">When</h3>
+            <p>Thursday<br>26 September 2024</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- Rules for events  -->
+  <div class="modal fade" id="tech1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+
+      <div class="modal-content">
+        <div class="modal-header">
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+
+      <div class="modal-body">
+        <h3 style="text-align: center;">RULES</h3>
+        <hr>
+        <ul style="padding-left: 25px; font-size: 18px;">
+          <li>One team per college, two members per team.</li>
+          <li>Programs from - C /C++ /JAVA /PYTHON.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="tech2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body">
+        <h3 style="text-align: center;">RULES</h3>
+        <hr>
+        <ul style="padding-left: 25px; font-size: 18px;">
+          <li>One team per college, two members per team.</li>
+          <li>For finals, the topic will be provided on the spot.</li>
+          <li>Participants have to design the website using HTML, CSS & JAVASCRIPT.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="tech3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body">
+        <h3 style="text-align: center;">RULES</h3>
+        <hr>
+        <ul style="padding-left: 25px; font-size: 18px;">
+          <li>One team per college, two members per team.</li>
+          <li>Programs from SQL / MYSQL.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="tech4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body">
+        <h3 style="text-align: center;">RULES</h3>
+        <hr>
+        <ul style="padding-left: 25px; font-size: 18px;">
+          <li>One team per college, two members per team.</li>
+          <li>No prelims will be conducted.</li>
+          <li>The partcipants have to prepare a PPT presentation (max. of 7 Slides) of their Innovation Ideas and send the same to <span>swap2k24@jmc.edu</span> on or before 21-09-2024.</li>
+          <li>Best five Ideas will be selected for finals : For Finals the team has to present their ideas for 3-5 minutes.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="nontech1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body">
+        <h3 style="text-align: center;">RULES</h3>
+        <hr>
+        <ul style="padding-left: 25px; font-size: 18px;">
+          <li>One team per college, two members per team.</li>
+          <li>The teams have to present their own product for the prelims.</li>
+          <li>The theme will be provided on the spot before 15 minutes for the final round.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="nontech2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body">
+        <h3 style="text-align: center;">RULES</h3>
+        <hr>
+        <ul style="padding-left: 25px; font-size: 18px;">
+          <li>One Participant per College.</li>
+          <li>Rules will be declared on the spot.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="nontech3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body">
+        <h3 style="text-align: center;">RULES</h3>
+        <hr>
+        <ul style="padding-left: 25px; font-size: 18px;">
+          <li>Event will be announced on the spot</li>
+          <li>One team per college, two members per team.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Technical events  -->
+    <section  class="wow fadeInUp speakers" id="speakers">
+      <div class="containers w-100" style="margin: 0 ;">]
+
+        <div class="section-header" >
+          <h2 style="margin-top: 30px;">Technical Events</h2>
+          <p>Here are some of our Technical Events</p>
+        </div>
+
+        <div class="row" style="margin: 0px;">
+          <div class="col-lg-3 col-md-6 ">
+            <div class = "container12">
+              <div class = "card12">
+
+                <div class = "image12">
+                  <img href = "#" src =               https://i.pinimg.com/originals/a4/7b/a5/a47ba59b4a353e0928ef0551ca44f980.jpg>
+                </div>
+
+                <div class = "content12">
+                  <a href="" style="text-decoration: none;"  data-bs-target="#tech1" data-bs-toggle="modal">Click Here</a>
+                  <h4>DEBUGGING</h4> 
+                </div>
+              </div>    
+            </div>
+          </div>
+          
+
+          <div class="col-lg-3 col-md-6">
+            <div class = "container12">
+              <div class = "card12">
+
+                <div class = "image12">
+                  <img href = "#" src =               https://i.pinimg.com/originals/a4/7b/a5/a47ba59b4a353e0928ef0551ca44f980.jpg>
+                </div>
+
+                <div class = "content12">
+                  <a href="" style="text-decoration: none;"  data-bs-target="#tech2" data-bs-toggle="modal">Click Here</a>
+                  <h4>WEB DESIGINING</h4>
+                </div>
+              </div>    
+            </div>
+          </div>
+
+
+          <div class="col-lg-3 col-md-6">
+            <div class = "container12">
+              <div class = "card12">
+
+                <div class = "image12">
+                  <img href = "#" src =               https://i.pinimg.com/originals/a4/7b/a5/a47ba59b4a353e0928ef0551ca44f980.jpg>
+                </div>
+
+                <div class = "content12">
+                  <a href="" style="text-decoration: none;"  data-bs-target="#tech3" data-bs-toggle="modal">Click Here</a>
+                  <h4>QUERY HUNT</h4> 
+                </div>
+              </div>    
+            </div>
+          </div>
+
+
+          <div class="col-lg-3 col-md-6">
+            <div class = "container12">
+              <div class = "card12">
+                <div class = "image12">
+                  <img href = "#" src =               https://i.pinimg.com/originals/a4/7b/a5/a47ba59b4a353e0928ef0551ca44f980.jpg>
+                </div>
+                <div class = "content12">
+                  <a href="" style="text-decoration: none;"  data-bs-target="#tech4" data-bs-toggle="modal">Click Here</a>
+                  <h4>INNOVATIVE IDEAS</h4>
+              </div>    
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Non-Technical events  -->
+    <section class="wow fadeInUp w-100 speakers">
+      <div class="container w-100">
+        <div class="section-header">
+          <h2 style="margin-top: 30px;">Non-Technical Events</h2>
+          <p>Here are some of our Non-Technical Events</p>
+        </div>
+        <div class="row non-technical">
+          <div class="col-lg-4 col-md-6">
+            <div class = "container12">
+              <div class = "card12">
+
+                <div class = "image12">
+                  <img href = "#" src =               https://i.pinimg.com/originals/a4/7b/a5/a47ba59b4a353e0928ef0551ca44f980.jpg>
+                </div>
+
+                <div class = "content12">
+                  <a href="" style="text-decoration: none;"  data-bs-target="#nontech1" data-bs-toggle="modal">Click Here</a>
+                  <h3>AD-ZAP</h3>
+                </div>
+
+              </div>    
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6">
+            <div class = "container12">
+              <div class = "card12">
+
+                <div class = "image12">
+                  <img href = "#" src =               https://i.pinimg.com/originals/a4/7b/a5/a47ba59b4a353e0928ef0551ca44f980.jpg>
+                </div>
+
+                <div class = "content12">
+                  <a href="" style="text-decoration: none;"  data-bs-target="#nontech2" data-bs-toggle="modal">Click Here</a>
+                  <h3>CROSSWORD</h3>  
+                </div>
+              </div>    
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6">
+            <div class = "container12">
+              <div class = "card12">
+
+                <div class = "image12">
+                  <img href = "#" src =               https://i.pinimg.com/originals/a4/7b/a5/a47ba59b4a353e0928ef0551ca44f980.jpg>
+                </div>
+
+                <div class = "content12">
+                  <a href="" style="text-decoration: none;"  data-bs-target="#nontech3" data-bs-toggle="modal">Click Here</a>
+                  <h3 style="font-size: 26px;">SURPRISE EVENT</h3>
+              </div>    
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Event Schedule  -->
+    <section id="schedule" class="section-with-bg">
+      <div class="container wow fadeInUp">
+
+        <div class="section-header">
+          <h2>Event Schedule</h2>
+          <p>Here is our event schedule</p>
+        </div>
+
+        <div class="tab-content row justify-content-center">
+          <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>11:00 AM</time></div>
+              <div class="col-md-10">
+
+                <div class="speaker">
+                  <img src="img/speakers/1.jpg" alt="Brenden Legros">
+                </div>
+
+                <h4>Debugging</h4>
+                <p>Venue : CS LAB-1</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>11:00 AM</time></div>
+              <div class="col-md-10">
+
+                <div class="speaker">
+                  <img src="img/speakers/2.jpg" alt="Hubert Hirthe">
+                </div>
+
+                <h4>Surprise Event</h4>
+                <p>Venue : Room Number : LH-71 (Computer Science Department)</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>11:00 AM</time></div>
+              <div class="col-md-10">
+
+                <div class="speaker">
+                  <img src="img/speakers/3.jpg" alt="Cole Emmerich">
+                </div>
+
+                <h4>Web Design</h4>
+                <p>Venue : CS LAB-3</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>12:00 PM</time></div>
+              <div class="col-md-10">
+
+                <div class="speaker">
+                  <img src="img/speakers/4.jpg" alt="Jack Christiansen">
+                </div>
+
+                <h4>Query Hunt</h4>
+                <p>Venue : CS LAB-1</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>12:00 PM</time></div>
+              <div class="col-md-10">
+
+                <div class="speaker">
+                  <img src="img/speakers/5.jpg" alt="Alejandrin Littel">
+                </div>
+
+                <h4>Ad Zap</h4>
+                <p>Venue : Room Number : LH-72 (Computer Science Department)</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>12:00 PM</time></div>
+              <div class="col-md-10">
+
+                <div class="speaker">
+                  <img src="img/speakers/6.jpg" alt="Willow Trantow">
+                </div>
+
+                <h4>Crossword</h4>
+                <p>Venue : CS SEMINAR HALL</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>11:00 AM</time></div>
+              <div class="col-md-10">
+
+                <div class="speaker">
+                  <img src="img/speakers/6.jpg" alt="Willow Trantow">
+                </div>
+
+                <h4>Innovative Ideas</h4>
+                <p>Venue : Room Number : LH-73 (Computer Science Department)</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Venue  -->
+    <section id="venue" class="wow fadeInUp">
+      <div class="container-fluid">
+        <div class="section-header">
+          <h2>Event Venue</h2>
+          <p>Event venue location info and gallery</p>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg-6 venue-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d979.8318174640748!2d78.69417985829824!3d10.786227085569484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baaf525b2be32c5%3A0xfefbf086537d64be!2sDepartment%20of%20Computer%20Science%2C%20JMC!5e0!3m2!1sen!2sin!4v1725082499989!5m2!1sen!2sin"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="col-lg-6 venue-info">
+            <div class="row justify-content-center">
+              <div class="col-11 col-lg-8">
+                <h3>Downtown Conference Center, New York</h3>
+                <p>Iste nobis eum sapiente sunt enim dolores labore accusantium autem. Cumque beatae ipsam. Est quae sit
+                  qui voluptatem corporis velit. Qui maxime accusamus possimus. Consequatur sequi et ea suscipit enim
+                  nesciunt quia velit.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid venue-gallery-container">
+        <div class="row no-gutters">
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="img/venue-gallery/1.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="img/venue-gallery/1.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="img/venue-gallery/2.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="img/venue-gallery/2.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="img/venue-gallery/3.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="img/venue-gallery/3.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="img/venue-gallery/4.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="img/venue-gallery/4.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="img/venue-gallery/5.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="img/venue-gallery/5.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="img/venue-gallery/6.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="img/venue-gallery/6.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="img/venue-gallery/7.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="img/venue-gallery/7.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="img/venue-gallery/8.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="img/venue-gallery/8.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery  -->
+    <section id="gallery" class="wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <h2>Gallery</h2>
+          <p>Check our gallery from the recent events</p>
+        </div>
+      </div>
+      <div class="owl-carousel gallery-carousel">
+        <a href="img/gallery/1.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/1.jpg"
+            alt=""></a>
+        <a href="img/gallery/2.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/2.jpg"
+            alt=""></a>
+        <a href="img/gallery/3.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/3.jpg"
+            alt=""></a>
+        <a href="img/gallery/4.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/4.jpg"
+            alt=""></a>
+        <a href="img/gallery/5.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/5.jpg"
+            alt=""></a>
+        <a href="img/gallery/6.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/6.jpg"
+            alt=""></a>
+        <a href="img/gallery/7.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/7.jpg"
+            alt=""></a>
+        <a href="img/gallery/8.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/8.jpg"
+            alt=""></a>
+      </div>
+    </section>
+
+    <!-- schedule  -->
+
+    <section id="schedule" class="section-with-bg mt-8">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h2>Schedule</h2>
+          <p>Here is our event schedule</p>
+        </div>
+        <div class="form-row justify-content-center">
+          <div class="important col-auto">
+            <a href="">Brochure</a>
+          </div>
+          <div class="important col-auto">
+            <a href="">General Rules</a>
+          </div>
+          <div class="important col-auto">
+            <a href="">Event Schedule</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <!-- contact section  -->
+    <section id="contact" class="section-bg wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <h2>Contact Us</h2>
+          <p>Student Co-Ordinators</p>
+        </div>
+
+        <div class="row contact-info">
+          <div class="col-md-4">
+            <div class="contact-address">
+              <i class="ion-ios-location-outline"></i>
+              <h3>Address</h3>
+              <address>Jamal Mohamed College,<br>P.Box.No.808, #7 Race Course Road, Khajanagar,Tiruchirapalli-620 020
+              </address>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-phone" style="position: relative;" >
+              <h3>Phone Number</h3>
+              <div style="display: grid; grid-template-columns: auto auto;">
+                <h6>Chairman</h6>
+                <p><a href="tel:+919994256610">+91 99942 56610</a></p>
+              </div>
+              <div style="display: grid; grid-template-columns: auto auto;">
+                <h6>Vice-Chairman</h6>
+                <p><a href="tel:+919092486271">+91 90924 86271</a></p>
+              </div>
+              <div style="display: grid; grid-template-columns: auto auto;">
+                <h6>Secretary</h6>
+                <p><a href="tel:+919360461335">+91 93604 61335</a></p>
+              </div>
+              <div style="display: grid; grid-template-columns: auto auto;">
+                <h6>Treasurer</h6>
+                <p><a href="tel:+918681037866">+91 86810 37866</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-email">
+              <i class="ion-ios-email-outline"></i>
+              <h3>Email</h3>
+              <p><a href="mailto:swap2k24@jmc.edu">swap2k24@jmc.edu</a></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer Page  -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 footer-info">
+            <img src="img-2.png" alt="JMC" style="width: 250px;height: 50px;">
+            <p style="letter-spacing: 1px;line-height: 28px;">SWAP organized by PG % Research Department of Computer Science, Jamal Mohamed College - Trichy. <br>SWAP aims at reaching out to all the students and promoting the vision of Technology and Science among the students.</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="fa fa-angle-right"></i> <a href="#intro">Home</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#timer">About us</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#abt">Events</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              Jamal Mohamed College, <br>
+              P.Box.No.808, #7 Race Course Road,<br>
+              Khajanagar,Tiruchirapalli-620 020 <br>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> swap2k24@jmc.edu<br>
+            </p>
+
+            <div class="social-links">
+              <a href="https://jmc.edu/" class="google-plus"><i class="fa fa-google-plus"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>Jamal Mohamed College</strong>. All Rights Reserved
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/venobox/venobox.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
